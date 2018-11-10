@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteRule ^trang-chu/?$ index.php
+RewriteRule ^admincp/?$ admincp/index.php
+RewriteRule ^lien-he/?$ index.php?com=contact
+
+RewriteRule ^du-an/?$ index.php?com=gallery
+RewriteRule ^du-an/([0-9a-zA-Z\-]+)/?$ index.php?com=gallery&viewtype=block&id=$1
+RewriteRule ^du-an/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+).html?$ index.php?com=gallery&viewtype=detail&gid=$1
+
+RewriteRule ^san-pham/?$ index.php?com=products
+
+RewriteRule ^tim-kiem/?$ index.php?com=contents&viewtype=search
+RewriteRule ^tin-tuc/([0-9a-zA-Z\-]+).html?$ index.php?com=contents&viewtype=article&code=$1
+RewriteRule ^tin-tuc/([0-9a-zA-Z\-]+)/?$ index.php?com=contents&viewtype=block&code=$1
+
+RewriteRule ^([0-9a-zA-Z\-]+)/?$ index.php?com=products&viewtype=block&code=$1
+RewriteRule ^([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+).html?$ index.php?com=products&viewtype=detail&name=$1&code=$2
+
+RewriteRule ^404.html?$ 404.php

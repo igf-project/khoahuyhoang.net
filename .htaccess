@@ -1,0 +1,85 @@
+RewriteEngine On  
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+redirect 301  /gallery /du-an
+redirect 301 /cremone /cremone-thuong
+
+redirect 301 /gioi-thieu /tin-tuc/gioi-thieu.html
+redirect 301 /tin-tuc/gioi-thieu/ /tin-tuc/gioi-thieu.html
+redirect 301 /tin-noi-bo/ /tin-tuc/tin-noi-bo
+redirect 301 /kien-thuc-an-ninh /tin-tuc/kien-thuc-an-ninh
+redirect 301 /tin-tong-hop /tin-tuc/tin-tong-hop
+
+redirect 301 /san-pham/nhom/cremone /chot-cremone/
+redirect 301 /san-pham/cremone-ex-02 /chot-cremone-ex-02/CremoneEX02.html
+
+redirect 301 /san-pham/ss-8510 /khoa-tay-nam-ss-8510/SS8510.html
+redirect 301 /san-pham/ss-8510-dai /khoa-tay-nam-ss-8510-dai/SS8510D.html
+redirect 301 /san-pham/tay-nam-hcr-8523 /khoa-tay-nam-hcr-8523/HCR8523.html
+
+redirect 301 /san-pham/khoa-treo/ /khoa-treo
+redirect 301 /san-pham/khoa-treo-dong /khoa-treo-hc/
+redirect 301 /san-pham/khoa-tu-06 /khoa-tu-06/KT06.html
+redirect 301 /san-pham/KT02.html /khoa-tu-02/KT02.html
+redirect 301 /san-pham/KTK.html /khoa-tu-kinh/KTK.html
+redirect 301 /san-pham/ban-le-la-04 /ban-le-la-04/BLLS04.html
+redirect 301 /san-pham/ban-le-coi-04 /ban-le-coi-04/BLC04.html
+
+redirect 301 /san-pham/nhom/khoa-tay-nam-ss /khoa-tay-nam-ss/
+redirect 301 /san-pham/nhom/khoa-tay-nam-ex /khoa-tay-nam-ex/
+redirect 301 /san-pham/nhom/phu-kien-cua-nhom-cua-nhua-chot-cua /phu-kien-cua-nhom-cua-nhua/
+
+RewriteRule ^trang-chu/?$ index.php
+RewriteRule ^admincp/?$ admincp/index.php
+RewriteRule ^lien-he/?$ index.php?com=contact
+RewriteRule ^EN/admincp/?$ EN/admincp/index.php
+RewriteRule ^EN/?$ EN/index.php
+
+RewriteRule ^du-an/?$ index.php?com=gallery
+RewriteRule ^du-an/([0-9a-zA-Z\-]+)/?$ index.php?com=gallery&viewtype=block&id=$1
+RewriteRule ^du-an/([0-9a-zA-Z\-]+)/([0-9a-zA-Z\-]+).html?$ index.php?com=gallery&viewtype=detail&gid=$1
+
+RewriteRule ^san-pham/?$ index.php?com=products
+
+RewriteRule ^tim-kiem/?$ index.php?com=contents&viewtype=search
+RewriteRule ^tin-tuc/([0-9a-zA-Z\-\?]+).html?$ index.php?com=contents&viewtype=article&code=$1
+RewriteRule ^tin-tuc/([0-9a-zA-Z\-\?]+)/?$ index.php?com=contents&viewtype=block&code=$1 
+
+RewriteRule ^([0-9a-zA-Z\-\+]+)/?$ ?com=products&viewtype=block&code=$1 
+RewriteRule ^([0-9a-zA-Z\-\+]+)/([0-9a-zA-Z\-\+]+).html?$ ?com=products&viewtype=detail&name=$1&code=$2
+
+RewriteRule ^404.html?$ 404.php
+
+<Ifmodule mod_php5.c>
+	php_value upload_max_filesize 8M
+	php_value max_execution_time  30
+	php_value max_input_time  60
+	php_value memory_limit  64M
+	php_value post_max_size  16M
+	php_flag register_globals  off
+	php_flag display_errors  off
+	php_flag file_uploads  on
+	php_flag log_errors  on
+	php_flag output_buffering  off
+	php_flag register_argc_argv  on
+	php_flag magic_quotes_gpc   off
+	php_flag magic_quotes_runtime  off
+	php_flag magic_quotes_sybase  off
+	php_flag mysql.allow_persistent  off
+	php_flag register_long_arrays  on
+	php_flag allow_url_fopen  on
+	php_flag cgi.force_redirect  on
+	php_flag enable_dl  on
+	php_flag safe_mode off
+</Ifmodule>
+
+#Bảo vệ file
+<files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+
+

@@ -1,0 +1,6 @@
+User-agent:*
+Allow:/
+Disallow:/include/
+Disallow:/libs/
+Disallow:/admincp/
+Disallow:/tim-kiem/

@@ -1,0 +1,139 @@
+/* General */
+*{margin:0;padding:0}
+html, body, ul, li{margin:0;padding:0;list-style:none}
+a{color:#084b8b;text-decoration:none;outline:0}
+a:link{color:#084b8b;text-decoration:none}
+a:visited{color:#084b8b;text-decoration:none}
+a:hover{color:#084b8b;text-decoration:underline}
+a:active{text-decoration:none}
+img, form, input, fieldset{margin:0;padding:0}
+img, form, fieldset{border:0}
+h1{font-family:Tahoma;font-size:18px;font-weight:bold;margin:0;padding:0}
+h2{font-family:Tahoma;font-size:12px;font-weight:bold;margin:0;padding:0}
+h3{font-family:Tahoma;font-size:11px;font-weight:bold;margin:0;padding:0}
+h4{font-family:Tahoma;font-size:10px;font-weight:bold;margin:0;padding:0}
+p {margin:0;padding:0}
+.clear{clear:both}
+.fl{float:left}
+.fr{float:right}
+.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}
+.clearfix{display:block;zoom:1}
+.pointer{cursor:pointer}
+
+/* Body -Layout */
+body{background:fff;color:#333;font-size:12px;font-family:Tahoma;font-weight:normal;text-align:left}
+body.hon{background:#000 !important}
+
+/* Kind1 */
+.iframe123Mua-kind01{background:url(box_kind1_02.jpg) repeat-y;width:422px;height:148px}
+.iframe123Mua-kind01 .iframe123Mua-kind01-inside{background:url(box_kind1_03.jpg) left bottom no-repeat;height:210px}
+.iframe123Mua-kind01 .topIframe{background:url(box_kind1_01.jpg) left top no-repeat;width:822px;height:36px;margin-bottom:10px}
+.iframe123Mua-kind01 .topIframe h2{display:inline;float:left;width:500px;height:30px;line-height:30px;padding-left:28px;color:#fff;text-transform:uppercase}
+.iframe123Mua-kind01 .topIframe h2 a{color:#fff}
+.iframe123Mua-kind01 .topIframe .btn-viewmore{display:inline-block;float:right;margin:7px 10px 0 0}
+.iframe123Mua-kind01 .contentIframe{margin:0 10px;padding-left:30px}
+.iframe123Mua-kind01 .contentIframe ul{margin:0}
+.iframe123Mua-kind01 .contentIframe ul li{width:152px;height:200px}
+.iframe123Mua-kind01 .contentIframe ul li .product{width:132px;height:200px}
+.iframe123Mua-kind01 .pic{position:relative;width:130px;height:130px;margin:0 auto 5px;border:1px solid #e8e8e8;_overflow:hidden;word-wrap:break-word}
+.iframe123Mua-kind01 .pic:hover{border:1px solid #ccc}
+.iframe123Mua-kind01 .pic img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;min-height:50px;min-width:50px;max-height:100%;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}
+.iframe123Mua-kind01 h2.lstitle{height:28px;padding-bottom:5px;color:#666;font-size:12px;font-weight:normal;text-align:center;overflow:hidden}
+.iframe123Mua-kind01 h2.lstitle a{color:#666}
+.iframe123Mua-kind01 .price{color:#279fdc;font-size:14px;font-weight:bold;text-align:center}
+
+/* Kind2 */
+.iframe123Mua-kind02{background:url(box_kind2_02.jpg) repeat-y;width:822px;height:248px}
+.iframe123Mua-kind02 .iframe123Mua-kind02-inside{background:url(box_kind2_03.jpg) left bottom no-repeat;height:210px}
+.iframe123Mua-kind02 .topIframe{background:url(box_kind2_01.jpg) left top no-repeat;width:822px;height:36px;margin-bottom:10px}
+.iframe123Mua-kind02 .topIframe h2{display:inline;float:left;width:500px;height:30px;line-height:30px;padding-left:28px;color:#fff;text-transform:uppercase}
+.iframe123Mua-kind02 .topIframe h2 a{color:#fff}
+.iframe123Mua-kind02 .topIframe h2 a span{color:#fff000}
+.iframe123Mua-kind02 .topIframe .btn-viewmore{display:inline-block;float:right;margin:7px 10px 0 0}
+.iframe123Mua-kind02 .contentIframe{margin:0 10px;padding-left:30px}
+.iframe123Mua-kind02 .contentIframe ul{margin:0}
+.iframe123Mua-kind02 .contentIframe ul li{width:152px;height:200px}
+.iframe123Mua-kind02 .contentIframe ul li .product{width:132px;height:200px}
+.iframe123Mua-kind02 .pic{position:relative;width:130px;height:130px;margin:0 auto 5px;border:1px solid #e8e8e8;_overflow:hidden;word-wrap:break-word}
+.iframe123Mua-kind02 .pic:hover{border:1px solid #ccc}
+.iframe123Mua-kind02 .pic img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;min-height:50px;min-width:50px;max-height:100%;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}
+.iframe123Mua-kind02 h2.lstitle{height:28px;padding-bottom:5px;color:#666;font-size:12px;font-weight:normal;text-align:center;overflow:hidden}
+.iframe123Mua-kind02 h2.lstitle a{color:#666}
+.iframe123Mua-kind02 .price{color:#ff9804;font-size:14px;font-weight:bold;text-align:center}
+
+/* Kind3 */
+.iframe123Mua-kind03{background:url(box_kind3_02.jpg) repeat-y;width:800px;height:258px}
+.iframe123Mua-kind03 .iframe123Mua-kind03-inside{background:url(box_kind3_03.jpg) left bottom no-repeat;height:238px}
+.iframe123Mua-kind03 .topIframe{background:url(box_kind3_01.jpg) left top no-repeat;width:800px;height:30px}
+.iframe123Mua-kind03 .topIframe h2{display:inline;float:left;background:url(box_kind3_icon_hon.jpg) left center no-repeat;width:500px;height:28px;line-height:28px;margin:20px 15px 10px 30px;padding-left:36px;color:#bd512e;text-transform:uppercase}
+.iframe123Mua-kind03 .topIframe h2 a{color:#bd512e}
+.iframe123Mua-kind03 .topIframe .btn-viewmore{display:inline-block;float:right;margin:24px 20px 0 0}
+.iframe123Mua-kind03 .contentIframe{margin:0 10px;padding-left:28px}
+.iframe123Mua-kind03 .contentIframe ul{margin:0}
+.iframe123Mua-kind03 .contentIframe ul li{width:148px;height:200px}
+.iframe123Mua-kind03 .contentIframe ul li .product{width:132px;height:200px}
+.iframe123Mua-kind03 .pic{position:relative;width:130px;height:130px;margin:0 auto 5px;border:1px solid #febb36;_overflow:hidden;word-wrap:break-word}
+.iframe123Mua-kind03 .pic:hover{border:1px solid #fe7d36}
+.iframe123Mua-kind03 .pic img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;min-height:50px;min-width:50px;max-height:100%;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}
+.iframe123Mua-kind03 h2.lstitle{height:28px;padding-bottom:5px;color:#666;font-size:12px;font-weight:normal;text-align:center;overflow:hidden}
+.iframe123Mua-kind03 h2.lstitle a{color:#666}
+.iframe123Mua-kind03 .price{color:#ff9804;font-size:14px;font-weight:bold;text-align:center}
+
+/* Kind4 */
+.iframe123Mua-kind04 .topIframe{width:100%;height:140px;color: #333;}
+
+
+
+.iframe123Mua-kind04 .topIframe{height:36px;margin-bottom:10px}
+
+.iframe123Mua-kind04 .topIframe h2{  border-bottom: 2px solid #82d642;display:inline;float:left;width:100%;height:30px;line-height:30px;color:#fff;text-transform:uppercase}
+.iframe123Mua-kind04 .topIframe h2 span{background: #82d642;padding: 10px;}
+.iframe123Mua-kind04 .topIframe .btn-viewmore{  float: right;
+  margin-top: -34px;
+  background-color: #eee;
+  color: #333;
+  padding: 7px;}
+.iframe123Mua-kind04 .contentIframe  .bx-wrapper,.iframe123Mua-kind04 .contentIframe  .bx-window{width: 100% !important;}
+.iframe123Mua-kind04 .contentIframe{margin:0 10px;}
+.iframe123Mua-kind04 .contentIframe ul{margin:0}
+.iframe123Mua-kind04 .contentIframe ul li{width:152px;height:200px}
+.iframe123Mua-kind04 .contentIframe ul li .product{width:132px;height:200px}
+.iframe123Mua-kind04 .pic{position:relative;width:130px;height:130px;margin:0 auto 5px;border:1px solid #e8e8e8;_overflow:hidden;word-wrap:break-word}
+.iframe123Mua-kind04 .pic:hover{border:1px solid #ccc}
+.iframe123Mua-kind04 .pic img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;min-height:50px;min-width:50px;max-height:100%;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}
+.iframe123Mua-kind04 h2.lstitle{height:28px;padding-bottom:5px;color:#666;font-size:12px;font-weight:normal;text-align:center;overflow:hidden}
+.iframe123Mua-kind04 h2.lstitle a{color:#666}
+.iframe123Mua-kind04 .price{color:#dc000a;font-size:14px;font-weight:bold;text-align:center}
+
+/*next button*/
+.iframe123Mua-kind01 .bx-next{position:absolute;top:20%;right:-18px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind1_btnRight.png) no-repeat}
+.iframe123Mua-kind01 .bx-prev{position:absolute;top:20%;left:-36px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind1_btnLeft.png) no-repeat}
+.iframe123Mua-kind02 .bx-next{position:absolute;top:20%;right:-16px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind2_btnRight.png) no-repeat}
+.iframe123Mua-kind02 .bx-prev{position:absolute;top:20%;left:-34px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind2_btnLeft.png) no-repeat}
+.iframe123Mua-kind03 .bx-next{position:absolute;top:20%;right:-13px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind3_btnRight.png) no-repeat}
+.iframe123Mua-kind03 .bx-prev{position:absolute;top:20%;left:-29px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind3_btnLeft.png) no-repeat}
+.iframe123Mua-kind04 .bx-next{position:absolute;top:20%;right:-10px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind4_btnRight.png) no-repeat}
+.iframe123Mua-kind04 .bx-prev{position:absolute;top:20%;left:-10px;z-index:999;width:16px;height:42px;text-indent:-999999px;background:url(box_kind4_btnLeft.png) no-repeat}
+.bx-pager a{display:none}
+.bx-auto .start{display:none}
+.bx-auto .stop{display:none}
+.bx-next:hover, .bx-prev:hover{background-position: 0 0}
+.bx-pager .pager-active, .bx-pager a:hover{background-position: 0 0}
+.bx-pager{text-align:center;padding-top:7px;font-size:12px;color:#666}
+.bx-captions{text-align:center;font-size:12px;padding:7px 0;color:#666}
+.bx-auto{text-align:center;padding-top:15px}
+.bx-auto a{color:#666;font-size:12px}
+
+/* zingforum */
+.iframe123Mua-zingforum{width:802px;height:138px;border:1px solid #2986e6;overflow:hidden}
+.iframe123Mua-zingforum .title-zingforum{background:#ebebeb}
+.iframe123Mua-zingforum .title-zingforum .btn-viewmore{float:right;background:url(ZF_iconViewmore.jpg) left center no-repeat;height:22px;padding-left:10px;padding-right:10px;color:#555;font-size:11px;line-height:22px}
+.iframe123Mua-zingforum .content-zingforum{padding:12px}
+.iframe123Mua-zingforum .content-zingforum ul{margin:0}
+.iframe123Mua-zingforum .content-zingforum ul li{float:left;width:250px;height:106px}
+.iframe123Mua-zingforum .content-zingforum ul li .pic{position:relative;float:left;width:90px;height:90px;margin:0 auto 5px;border:1px solid #d2e9ff;_overflow:hidden;word-wrap:break-word}
+.iframe123Mua-zingforum .content-zingforum ul li .pic img{position:absolute;left:0;right:0;top:0;bottom:0;margin:auto;min-height:50px;min-width:50px;max-height:100%;max-width:100%;height:auto;-ms-interpolation-mode:bicubic}
+.iframe123Mua-zingforum .content-zingforum ul li .desc{float:right;width:150px;margin-left:8px}
+.iframe123Mua-zingforum .content-zingforum ul li .desc h2.lstitle{height:28px;padding-bottom:5px;color:#2986e6;font-size:12px;font-weight:bold;overflow:hidden}
+.iframe123Mua-zingforum .content-zingforum ul li .desc h2.lstitle a{color:#2986e6}
+.iframe123Mua-zingforum .content-zingforum ul li .desc .price{color:#f00;font-size:12px;font-weight:bold}
